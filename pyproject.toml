@@ -1,3 +1,17 @@
 
+[project]
+name = "autodamage-ai-pakistan"
+version = "1.0.0"
+description = "AI-based vehicle damage detection and repair cost estimation"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "python-multipart",
+    "pymongo",
+    "python-dotenv",
+    "google-generativeai",
+]
+
 [tool.vercel]
 entrypoint = "backend.main:app"
