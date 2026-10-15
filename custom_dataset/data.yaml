@@ -1,0 +1,22 @@
+# AutoDamage AI Pakistan - Custom Dataset Configuration
+path: C:/Users/abkba/.gemini/antigravity/scratch/AutoDamage_AI_Pakistan_v6_FINAL/AutoDamage_AI_Pakistan/custom_dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 14
+names:
+  0: 'Front-windscreen-damage'
+  1: 'Headlight-damage'
+  2: 'Rear-windscreen-Damage'
+  3: 'Runningboard-Damage'
+  4: 'Sidemirror-Damage'
+  5: 'Taillight-Damage'
+  6: 'bonnet-dent'
+  7: 'boot-dent'
+  8: 'doorouter-dent'
+  9: 'fender-dent'
+  10: 'front-bumper-dent'
+  11: 'quaterpanel-dent'
+  12: 'rear-bumper-dent'
+  13: 'roof-dent'

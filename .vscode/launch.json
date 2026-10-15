@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🚀 1. Run FastAPI AI Backend (Port 8000)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["backend.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"],
+      "jinja": true,
+      "justMyCode": false
+    },
+    {
+      "name": "🌐 2. Run Next.js Frontend (Port 3000)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"]
+    },
+    {
+      "name": "📊 3. Run Streamlit Dashboard (Port 8501)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "app.py", "--server.port", "8501"],
+      "jinja": true,
+      "justMyCode": false
+    },
+    {
+      "name": "🧪 4. Run Unseen Data Benchmark Test",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/test_backend_full.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

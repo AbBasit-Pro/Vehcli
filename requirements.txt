@@ -1,0 +1,35 @@
+# AutoDamage AI Pakistan — Requirements
+
+# Core AI
+ultralytics==8.4.163
+torch==2.14.0
+torchvision==0.29.0
+opencv-python==5.0.0.93
+
+# Google Gemini LLM API
+google-genai==2.25.0
+python-dotenv==1.2.3
+
+# FastAPI Backend Server
+fastapi==0.141.1
+uvicorn==0.54.0
+pydantic==2.13.5
+python-multipart==0.0.32
+
+# Scraping
+requests==2.34.2
+beautifulsoup4==4.15.0
+
+# PDF Report Generator
+reportlab==5.0.1
+
+# Utilities
+numpy==2.5.3
+pillow==12.3.0
+
+# Authentication & Database
+pymongo==4.13.2
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.5.0
+bcrypt==4.3.0
+email-validator==2.2.0
