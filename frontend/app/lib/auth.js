@@ -1,4 +1,4 @@
-const BACKEND_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const BACKEND_URL = process.env.NEXT_PUBLIC_API_URL || 'https://aiveh.vercel.app/';
 
 export const getToken = () => {
   if (typeof window === 'undefined') return null;
